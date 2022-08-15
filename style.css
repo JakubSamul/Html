@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -20,13 +21,17 @@ span {
     color: grey
 }
 
+.conteiner {
+    box-shadow: 0 0 20px grey;
+    margin: 0 auto;
+    padding-top: 60px;
+    background-color: white;
+    width: 960px;
+}
 
 section,
 header {
     padding: 10px 60px 20px 60px;
-    background-color: white;
-    width: 960px;
-    margin: 0 auto;
 }
 
 header {
@@ -39,7 +44,7 @@ header ul {
     list-style: none;
 }
 
-header li {
+li {
     margin-bottom: 15px;
 }
 
@@ -96,6 +101,7 @@ p {
     display: inline-block;
     border-radius: 26px;
     transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 20px grey;
 }
 
 .cv-download-link:hover {
